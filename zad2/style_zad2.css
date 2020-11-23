@@ -1,0 +1,111 @@
+﻿/*opet ne znam šta bi komentirala*/
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+.card_f {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+  position: absolute;
+  top: 11em;
+  left:26.25em; 
+}
+.card_f header{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card_f footer {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.card_f article img {
+  max-height: 100%;
+  float: right;
+}
+.card_f header, .card_f footer{ 
+  height: 3em; 
+  padding:1em;
+}
+.card_f h2, .card_f p{
+  margin: 0em;
+}
+.card_f article{
+  height: 12em;
+  background-color:  rgb(0,0,0,0.5);
+}
+.card_f h2{
+  font-size: 2em;
+  line-height: 3em; 
+}
+.card_f footer p{
+  font-size: 1.5em;
+  line-height: 3em;
+
+}
+.card_f article p{
+  text-align: left;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.card_m {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.card_m  header{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card_m  footer {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.card_m  article img {
+  max-height: 100%;
+  float: right;
+}
+.card_m  header, .card_m  footer{ 
+  height: 3em; 
+  padding:1em;
+}
+.card_m  h2, .card_m  p{
+  margin: 0em;
+}
+.card_m  article{
+  height: 12em;
+  background-color:  rgb(0,0,0,0.5);
+}
+.card_m  h2{
+  font-size: 2em;
+  line-height: 3em; 
+}
+.card_m  footer p{
+  font-size: 1.5em;
+  line-height: 3em;
+}
+.card_m  article p{
+  text-align: left;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+}
